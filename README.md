@@ -1,6 +1,8 @@
 # AB-Testing-Data-Analysis
 The data analysis has been conducted on the dataset of an A/B test for a website. The purpose of the test was to determine whether inclusion of a Haptic feature (touch and feel) for a particular product line in an ecommerce website brought any significant results. In this report, I have made necessary assumptions, set KPIs to be evaluated and used statistical tests to reach a data-driven conclusion.
+
 **About the dataset**
+
 Company: One of the fastest growing online retailers in Dhaka, Bangladesh
 Link to dataset and task brief: 
 https://drive.google.com/drive/folders/1weqXOjnJk8GvUBT4DSQi2Edk6ciFbyO9?usp=sharing
@@ -21,7 +23,9 @@ Given data fields:
 -	Ecommerce Conversion Rate
 -	Transactions
 -	Revenue (BDT)
+
 **Assumptions and new calculated fields**
+
 Since a glossary of the data was not provided, I have made the following core assumptions for the analysis of the dataset:
 1.	The _Session_ field only contains number of Unique Sessions. This assumption has been made since checking the dataset revealed that the _New Users_ field is a calculation of (_Percentage of New Sessions_ * _Sessions_).
 2.	According to Google Analytics, _Ecommerce Conversion Rate_ is defined as ratio of _Transactions_ to _Total Sessions_. I have used this formula to calculate the number of _Total Sessions_ for the website as (_Transactions_ / _Ecommerce Conversion Rate_).
@@ -31,7 +35,9 @@ Other calculated fields include:
 -	_Average order value_: _Revenue_ / _Transactions_
 -	_Average Revenue per Session_: _Revenue_ / _Total Sessions_  
 -	_Average Revenue per User_: _Revenue_ / _Unique Sessions_  
+
 **A/B testing parameters and choice of statistical tests**
+
 Since the website is a retail ecommerce website, the following Key Performance Indicators are important:
 •	Number of new users
 •	Bounce rate
