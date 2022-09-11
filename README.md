@@ -1,0 +1,2 @@
+# AB-Testing-Data-Analysis
+The data analysis has been conducted on the dataset of an A/B test for a website. The purpose of the test was to determine whether inclusion of a Haptic feature (touch and feel) for a particular product line in an ecommerce website brought any significant results. In this report, I have made necessary assumptions, set KPIs to be evaluated and used statistical tests to reach a data-driven conclusion.
