@@ -46,6 +46,7 @@ Since the website is a retail ecommerce website, the following Key Performance I
 -	Average revenue per session
 -	Average order value
 -	Average order value per user
+
 Since the primary objective of a retail ecommerce is to generate sales, so I will consider –
 _Primary KPI_: Conversion rate
 _Secondary KPI_: Average revenue per user
