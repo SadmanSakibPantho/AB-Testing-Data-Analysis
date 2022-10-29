@@ -39,7 +39,7 @@ Other calculated fields include:
 **A/B testing parameters and choice of statistical tests**
 
 Since the website is a retail ecommerce website, the following Key Performance Indicators are important:
--	Number of new users 
+-	Number of repeat visits 
 -	Bounce rate
 -	Conversion rate
 -	Average session duration
@@ -50,6 +50,6 @@ Since the website is a retail ecommerce website, the following Key Performance I
 Since the primary objective of a retail ecommerce is to generate sales, so I will consider –
 _Primary KPI_: Conversion rate
 _Secondary KPI_: Average revenue per user
-Here, it is important to note that number of new sessions, bounce rate, conversion rate – these are discrete metrics. For example, conversion rate denotes two possible outcomes – the session either converted into a sale, or it did not. Similarly, bounce rate denotes two possible outcomes – the session bounced after single-page view, or it did not. 
+Here, it is important to note that number of repeat visits, bounce rate, conversion rate – these are discrete metrics. For example, conversion rate denotes two possible outcomes – the session either converted into a sale, or it did not. Similarly, bounce rate denotes two possible outcomes – the session bounced after single-page view, or it did not. 
 On the other hand, KPIs such as average session duration, average revenue per session, average order value, average revenue per user – these are continuous metrics. Such metrics cannot denote any binary outcome like discrete metrics.
 Chi Square test is a better fit for analyzing discrete data compared to T-Test. It is also better than the Fisher’s exact test since the sample size here is relatively large (n = 83). On the other hand, T-Test is a good fit for samples or population that are normally distributed. A preliminary visualization showed that although skewed to a degree, average session duration, average revenue per session, average order value, average revenue per user - are all relatively normally distributed. Please check the Appendix A to see the visualizations.
